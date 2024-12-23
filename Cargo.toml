@@ -1,0 +1,12 @@
+[package]
+name = "brain_fu_k"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+
+[profile.dev]
+opt-level = 1
+[profile.dev.packages."*"]
+opt-level = 3
